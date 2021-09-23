@@ -1,0 +1,5 @@
+#BD89E8 - Color rosado lila
+#6034BF	- Morado fuerte
+#3E2F72 - Morado oscuro
+#8FA9F2	- Azul pastel
+#79B4D9	- Celeste pastel

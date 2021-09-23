@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estiloMenu.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/550843a4c7.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="recursos/icon.png" sizes="16x16"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <title>ABC_kids</title>
+</head>
+<body>
+
+<nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+      <button id="bot" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span id="ham" class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 id="h5" class="offcanvas-title" id="offcanvasNavbarLabel">ABC-Kids</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a id="text-active" class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a id="text" class="nav-link" href="galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a id="text" class="nav-link" href="nosotros.html">Sobre nosotros</a>
+            </li>
+             <li class="nav-item">
+              <a id="text" class="nav-link" href="https://www.cdb.edu.sv">CDB</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</nav>
+<div class="icon">
+  <img class="loguito" src="img/logoOp2.2.png" alt="logo de ABC_kids">
+</div>
+    <header id="cabeza">
+      <div class="imagen-header">
+        <img src="img/ninos.png" alt="Dibujo de niños" id="ninos">
+      </div>
+        
+        <div class="textos">
+            <h1 class="titulo">Bienvenido</h1>
+            <h2 class="subtitulo">Amiguito a</h2>
+            <img src="img/logoOp2.2.png" alt="logo de ABC_kids" class="loguito2">
+            <a href="vis.Login.php" class="boton1">Iniciar sesión</a>
+        </div>
+        
+    </header>
+    <div class="container-fluid" id="cajas-container">
+        <div class="card" style="width: 18rem;">
+          <div class="estrellas">
+            <i class="far fa-star"></i>
+          </div>
+            <div class="card-body">
+              <span class="card-title">Mi</span><br>
+              <span class="card-title">Progreso</span>
+              <a href="vis.Login.php" class="btn btn-primary">Ver aquí</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <div class="estrellas">
+              <i class="far fa-star"></i> <i class="far fa-star"></i>
+            </div>
+              <div class="card-body">
+                <span class="card-title">Sesión</span><br>
+                <span class="card-title">Docente</span>
+                <a href="vis.loginMaestra.php" class="btn btn-primary">Ver aquí</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <div class="estrellas">
+                <i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i>
+              </div>
+                <div class="card-body">
+                  <span class="card-title">Sobre</span><br>
+                  <span class="card-title">Creadores</span>
+                  <a href="nosotros.html" class="btn btn-primary">Ver aquí</a>
+                </div>
+              </div>
+    </div>
+    
+    <div class="container-fluid" id="principal">
+       
+        <div class="row align-items-start" id="bloques">
+          <div class="col">
+           <img src="img/pensando.png" alt="logo oficial" id="logo">
+          </div>
+          <div class="col">
+            <h1>¿Qué es ABC-Kids?</h1>
+            <div class="linea"></div>
+            <p>ABC-Kids es un proyecto que pretende solucionar la problemática de Ciudadela Don Bosco sobre el sistema actual  de lecciones el cual se encuentra obsoleto y con funciones desfasadas. ¿De que manera? La mejor alternativa es comenzar desde cero un nuevo sitio, porque en un intento por reutilizar los
+              elementos con los que contábamos terminaríamos renovando un sitio que perdió su propia
+              razón de ser, es aquí que nuestra solución se vuelve una innovación, y no una renovación.</p>
+          </div>
+        </div>
+        
+        
+      </div>
+      <div class="container-fluid" id="carousel">
+        <h1>¡Aprende a leer divirtiéndote!</h1>
+            <div class="linea"></div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/carousel-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/carousel-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/carousel-3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    <footer>
+        <div class="footer-content">
+            <h3>ABC-Kids ®</h3>
+            <p>¡Aprende a leer divirtiéndote!</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/donbosco.elsalvador"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/donboscosv"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="mailto:donbosco@cdb.edu.sv"><i class="far fa-envelope"></i></a></li>
+                <li><a href="https://www.instagram.com/donboscosv/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/user/DonBoscoSAL"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
